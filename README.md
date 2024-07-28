@@ -1,17 +1,41 @@
-# nitzanim-2024
+# Nitzanim 2024 AI Demo Scripts
 
-Demo scripts from Nitzanim 2024 ai talk
+This repository contains demo scripts used in the Nitzanim 2024 AI talk. The scripts demonstrate various AI model techniques, including embeddings, transformers, and neural network architectures.
 
-## Large models
+## Repository Contents
 
-[embedings.py](embedings.py) - Demo large model embeddings and cosine distance.
+### Large Models
+- [embedings.py](embedings.py): Demonstrates large model embeddings and calculates cosine distances.
+- [transformer.py](transformer.py): Showcases the functionality of a large model transformer.
 
-[transformer.py](transformer.py) - Demo large model transformer.
+**Large Models** are typically used for tasks requiring high capacity and complexity, such as natural language processing, image recognition, and other applications where understanding nuanced patterns and relationships in large datasets is crucial.
 
-## Small models
+### Small Models
+- [one-node-user-weights.py](one-node-user-weights.py): Demonstrates a simple one-node neural network (perceptron).
+- [three-node-user-weights.py](three-node-user-weights.py): Illustrates a three-node neural network model.
+- three-node-train-weights.py](three-node-train-weights.py): Includes training logic for a three-node neural network.
 
-[one-node-user-weights.py](one-node-user-weights.py) - Demo one node model (presptron).
+**Small Models** are useful for simpler tasks or when computational resources are limited. They are often employed in scenarios where interpretability and efficiency are prioritized over the complexity and capacity of the model.
 
-[three-node-user-weights.py](three-node-user-weights.py) - Demo three node model.
+## How to Use
 
-[three-node-train-weights.py](three-node-train-weights.py) - Demo three node model with training.
+1. Clone the repository: 
+   ```
+   git clone https://github.com/yaacov/nitzanim-2024.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd nitzanim-2024
+   ```
+3. Run the scripts using Python:
+   ```
+   python <script_name>.py
+   ```
+
+## Prerequisites
+
+Ensure you have Python installed along with necessary libraries like NumPy and PyTorch.
+
+## License
+
+This project is licensed under the GPL-3.0 License - see the LICENSE file for details.
