@@ -27,7 +27,11 @@ This repository contains demo scripts used in the Nitzanim 2024 AI talk. The scr
    ```
    cd nitzanim-2024
    ```
-3. Run the scripts using Python:
+3. Install required packages:
+   ```
+   pip install -r requirements.txt
+   ```
+4. Run the scripts using Python:
    ```
    python <script_name>.py
    ```
