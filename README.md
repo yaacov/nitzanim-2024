@@ -13,7 +13,7 @@ This repository contains demo scripts used in the Nitzanim 2024 AI talk. The scr
 ### Small Models
 - [one-node-user-weights.py](one-node-user-weights.py): Demonstrates a simple one-node neural network (perceptron).
 - [three-node-user-weights.py](three-node-user-weights.py): Illustrates a three-node neural network model.
-- three-node-train-weights.py](three-node-train-weights.py): Includes training logic for a three-node neural network.
+- [three-node-train-weights.py](three-node-train-weights.py): Includes training logic for a three-node neural network.
 
 **Small Models** are useful for simpler tasks or when computational resources are limited. They are often employed in scenarios where interpretability and efficiency are prioritized over the complexity and capacity of the model.
 
